@@ -79,7 +79,18 @@ The tests fork Robinhood Chain mainnet through its public RPC (`robinhood` in `f
 
 ## Deployed contracts
 
-Not deployed yet.
+Robinhood Chain mainnet, chain ID 4663, deployed on 27 October 2026 at block 98,932,088 by Ostra's deployer
+(`0x6569E27A95a6A3E92A311B4Cc6600fed56aA50A2`), verified on Sourcify as an exact match; the record is
+[`deployments/robinhood-mainnet.json`](deployments/robinhood-mainnet.json).
+
+| Contract | Address |
+| --- | --- |
+| OstraPad | [`0x1BE28c4F08a548598fE0AA9b16DFD564C82E8055`](https://robinhoodchain.blockscout.com/address/0x1BE28c4F08a548598fE0AA9b16DFD564C82E8055) |
+
+Its constructor fixed the token (USDG, `0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168`), `TREASURY`
+(`0x6569E27A95a6A3E92A311B4Cc6600fed56aA50A2`, Ostra's treasury) and `BURN_SINK`
+(`0xd86083031b7Af66ecD5C9c5e90D4C6d8E661F3f5`, OstraBuyback of [ostra-swap](https://github.com/ostraagent/ostra-swap)).
+The deployed code is the build of commit `36b57a6`.
 
 ## Security
 

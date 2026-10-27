@@ -1,0 +1,12 @@
+{
+  "chainId": 4663,
+  "fromBlock": "98932088",
+  "ostraPad": "0x1BE28c4F08a548598fE0AA9b16DFD564C82E8055",
+  "deployTx": "0xab989ad781429dc008cc77264be1978158be296479d0fe0ce4eb1462b03b3f07",
+  "deployer": "0x6569E27A95a6A3E92A311B4Cc6600fed56aA50A2",
+  "token": "0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168",
+  "treasury": "0x6569E27A95a6A3E92A311B4Cc6600fed56aA50A2",
+  "burnSink": "0xd86083031b7Af66ecD5C9c5e90D4C6d8E661F3f5",
+  "sourceCommit": "36b57a61645ae5ca001b28e2eaeae786616fe302",
+  "creationCodeSha256": "d0cabb2c1542d5d0fe83457edfb0f609c2ff4a1ca90311c408f934f7b506aeed"
+}
