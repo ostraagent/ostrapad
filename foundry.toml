@@ -1,0 +1,20 @@
+[profile.default]
+src = "src"
+test = "test"
+out = "out"
+libs = ["lib"]
+solc_version = "0.8.30"
+evm_version = "cancun"
+optimizer = true
+optimizer_runs = 200
+# A metadata hash in the bytecode (Foundry's default, ipfs), so that Sourcify can verify OstraPad as an exact match.
+# OstraPad's deposit-box addresses do not depend on it off chain: they come from its own boxAddress views, which use
+# the PadBox creation code compiled into it (BOX_CODE_HASH).
+bytecode_hash = "ipfs"
+remappings = [
+    "@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/",
+    "forge-std/=lib/forge-std/src/",
+]
+
+[rpc_endpoints]
+robinhood = "https://rpc.mainnet.chain.robinhood.com"
